@@ -1,40 +1,40 @@
 af:Afrikaans
 am:Amharic
-ar:Arabic 
-as:Assamese 
+ar:Arabic
+as:Assamese
 bg:Bulgarian
 bn:Bengali
 bo:Tibetan
 ca:Catalan; Valencian
 cs:Czech
-da:Danish 
-de:German 
-dz:Dzongkha 
+da:Danish
+de:German
+dz:Dzongkha
 el:Greek, Modern (1453-)
 en:English
 eo:Esperanto
 es:Spanish; Castilian
-et:Estonian 
-eu:Basque 
+et:Estonian
+eu:Basque
 fa:Persian
 fi:Finnish
 fo:Faroese
-fr:French 
+fr:French
 ga:Irish
 gd:Gaelic; Scottish Gaelic
-gl:Galician 
-gu:Gujarati 
-gv:Manx 
-he:Hebrew 
+gl:Galician
+gu:Gujarati
+gv:Manx
+he:Hebrew
 hi:Hindi
-hr:Croatian 
+hr:Croatian
 hu:Hungarian
-hy:Armenian 
+hy:Armenian
 id:Indonesian
 ii:Sichuan Yi; Nuosue
 is:Icelandic
 it:Italian
-ja:Japanese 
+ja:Japanese
 km:Central Khmere
 kn:Kannada
 ko:Korean
@@ -54,10 +54,10 @@ nn:Norwegian Nynorsk; Nynorsk
 nr:Ndebele, South; South Ndeb
 nso:Sotho, Northern
 or:Oriya
-pa:Panjabi; Punjabie 
-pl:Polish 
+pa:Panjabi; Punjabie
+pl:Polish
 pt:Portuguesee
-ro:Romanian 
+ro:Romanian
 ru:Russian
 se:Northern Samie
 sk:Slovak
@@ -68,12 +68,12 @@ st:Sotho, Southern
 sv:Swedish
 ta:Tamil
 te:Telugu
-th:Thai 
+th:Thai
 tl:Tagalog
-tn:Tswana 
-ts:Tsonga 
+tn:Tswana
+ts:Tsonga
 uk:Ukrainian
-ur:Urdu 
+ur:Urdu
 uz:Uzbek
 ve:Venda
 vi:Vietnamese
@@ -83,4 +83,3 @@ zh:Chinese
 zh-hans:Simplified Chinese
 zh-hant:Traditional Chinese
 zu:Zulu
-
