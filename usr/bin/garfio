@@ -34,25 +34,10 @@ Amarillo=""
 Azul=""
 CierreColor=""
 
-if [ "$TMPDIR" = "" ]; then
-    TMPDIR="/home/$USER/garfio"
-else
-    TMPDIR="$TMPDIR/garfio"
-fi
-
-if [ "$LIVEUSER" = "" ]; then
-    LIVEUSER="tuquito"
-else
-    LIVEUSER="`echo $LIVEUSER | awk '{print tolower ($0)}'`"
-fi
-
-if [ "$LIVECDLABEL" = "" ]; then
-    LIVECDLABEL="Tuquito Live"
-fi
-
-if [ "$CUSTOMISO" = "" ]; then
-    CUSTOMISO="custom-$1.iso"
-fi
+[ "$TMPDIR" = "" ] && TMPDIR="/home/$USER/garfio" || TMPDIR="$TMPDIR/garfio"
+[ "$LIVEUSER" = "" ] && LIVEUSER="tuquito" || LIVEUSER="`echo $LIVEUSER | awk '{print tolower ($0)}'`"
+[ "$LIVECDLABEL" = "" ] && LIVECDLABEL="Tuquito Live"
+[ "$CUSTOMISO" = "" ] && CUSTOMISO="custom-$1.iso"
 
 error() {
     echo -e "${Color}${Azul} "$(gettext "Usage")":${CierreColor}\n"
@@ -370,11 +355,12 @@ main (){
     [ "$1" = "back" ] && chmod 644 /usr/share/initramfs-tools/scripts/casper-bottom/*adduser /usr/share/initramfs-tools/scripts/casper-bottom/*autologin
 
     # configurando archivos para el livecd
-    DISTNAME=`lsb_release -si`
-    cp /boot/memtest86+.bin $TMPDIR/ISO/memtest
-    #cp /usr/lib/syslinux/isolinux.bin $TMPDIR/ISO/isolinux/
-    cp -af /etc/garfio/isolinux/* $TMPDIR/ISO/isolinux/
-    cp -af /etc/garfio/preseed/* $TMPDIR/ISO/preseed/
+	DISTNAME=`lsb_release -si`
+	cp /boot/memtest86+.bin $TMPDIR/iso/memtest
+	cp /usr/lib/syslinux/isolinux.bin $TMPDIR/iso/isolinux/
+	cp /usr/lib/syslinux/vesamenu.c32 $TMPDIR/iso/isolinux/
+	cp -af /etc/garfio/isolinux/* $TMPDIR/iso/isolinux/
+	cp -af /etc/garfio/preseed/* $TMPDIR/iso/preseed/
 
     # copiando archivos de autorun
     if [ -d "/etc/garfio/autorun" ]; then
