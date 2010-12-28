@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <interface>
   <requires lib="gtk+" version="2.16"/>
   <!-- interface-naming-policy project-wide -->
@@ -38,7 +38,7 @@
                       <object class="GtkLabel" id="garifo_label">
                         <property name="visible">True</property>
                         <property name="xalign">0.029999999329447746</property>
-                        <property name="label">&lt;big&gt;&lt;big&gt;&lt;b&gt;Garfio 2.3&lt;/b&gt; (beta)&lt;/big&gt;&lt;/big&gt;</property>
+                        <property name="label">&lt;big&gt;&lt;big&gt;&lt;b&gt;Garfio 2.4&lt;/b&gt;&lt;/big&gt;&lt;/big&gt;</property>
                         <property name="use_markup">True</property>
                       </object>
                       <packing>
@@ -110,7 +110,7 @@
                               <object class="GtkLabel" id="ldist">
                                 <property name="visible">True</property>
                                 <property name="xalign">0</property>
-                                <property name="label" translatable="yes">Hacer una distribuci&#xF3;n personalizada</property>
+                                <property name="label" translatable="yes">Hacer una distribución personalizada</property>
                               </object>
                               <packing>
                                 <property name="position">0</property>
@@ -120,7 +120,7 @@
                               <object class="GtkLabel" id="l2dist">
                                 <property name="visible">True</property>
                                 <property name="xalign">0</property>
-                                <property name="label" translatable="yes">&lt;small&gt;Cre&#xE1; tu propia distribuci&#xF3;n&lt;/small&gt;</property>
+                                <property name="label" translatable="yes">&lt;small&gt;Creá tu propia distribución&lt;/small&gt;</property>
                                 <property name="use_markup">True</property>
                               </object>
                               <packing>
@@ -455,7 +455,7 @@
           <object class="GtkEntry" id="workdir">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <property name="invisible_char">&#x25CF;</property>
+            <property name="invisible_char">●</property>
           </object>
           <packing>
             <property name="position">1</property>
@@ -476,7 +476,7 @@ Archivos y directorios a excluir separados por coma</property>
           <object class="GtkEntry" id="excludes">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <property name="invisible_char">&#x25CF;</property>
+            <property name="invisible_char">●</property>
           </object>
           <packing>
             <property name="position">3</property>
@@ -497,7 +497,7 @@ Nombre del usuario liveCD/DVD</property>
           <object class="GtkEntry" id="liveuser">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <property name="invisible_char">&#x25CF;</property>
+            <property name="invisible_char">●</property>
           </object>
           <packing>
             <property name="position">5</property>
@@ -518,7 +518,7 @@ Nombre del liveCD/DVD</property>
           <object class="GtkEntry" id="livecdlabel">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <property name="invisible_char">&#x25CF;</property>
+            <property name="invisible_char">●</property>
           </object>
           <packing>
             <property name="position">7</property>
@@ -539,7 +539,7 @@ Nombre del archivo .iso</property>
           <object class="GtkEntry" id="iso">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
-            <property name="invisible_char">&#x25CF;</property>
+            <property name="invisible_char">●</property>
           </object>
           <packing>
             <property name="position">9</property>
