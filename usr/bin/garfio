@@ -356,11 +356,11 @@ main (){
 
     # configurando archivos para el livecd
 	DISTNAME=`lsb_release -si`
-	cp /boot/memtest86+.bin $TMPDIR/iso/memtest
-	cp /usr/lib/syslinux/isolinux.bin $TMPDIR/iso/isolinux/
-	cp /usr/lib/syslinux/vesamenu.c32 $TMPDIR/iso/isolinux/
-	cp -af /etc/garfio/isolinux/* $TMPDIR/iso/isolinux/
-	cp -af /etc/garfio/preseed/* $TMPDIR/iso/preseed/
+	cp /boot/memtest86+.bin $TMPDIR/ISO/memtest
+	cp /usr/lib/syslinux/isolinux.bin $TMPDIR/ISO/isolinux/
+	cp /usr/lib/syslinux/vesamenu.c32 $TMPDIR/ISO/isolinux/
+	cp -af /etc/garfio/isolinux/* $TMPDIR/ISO/isolinux/
+	cp -af /etc/garfio/preseed/* $TMPDIR/ISO/preseed/
 
     # copiando archivos de autorun
     if [ -d "/etc/garfio/autorun" ]; then
