@@ -1,3 +1,9 @@
+garfio (2.4-3) maverick; urgency=low
+
+  * iso generate fixed
+
+ -- Mario Colque <mario@tuquito.org.ar>  Fri, 08 Apr 2011 13:08:08 -0300
+
 garfio (2.4-2) maverick; urgency=low
 
   * launcher fixed
