@@ -1,3 +1,9 @@
+garfio (2.5-1) natty; urgency=low
+
+  * Version glade file, fixed :D
+
+ -- Mario Colque <mario@tuquito.org.ar>  Thu, 11 Aug 2011 20:18:22 -0300
+
 garfio (2.5) natty; urgency=low
 
   * Pampa branch
