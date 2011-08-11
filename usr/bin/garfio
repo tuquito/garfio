@@ -3,7 +3,7 @@
 #  Garfio es una aplicación para generar livecd/dvd instalables
 #  de tu distribución personalizada y copias de respaldo del directorio HOME
 #
-#  Copyright (C) 2010
+#  Copyright (C) 2011
 #  Autor: Mario Colque <mario@tuquito.org.ar>
 #  Autor: Mauro Torres <mauro@tuquito.org.ar>
 #  Tuquito Team! - www.tuquito.org.ar
@@ -216,7 +216,7 @@ translate() {
     fi
 
     echo -e "${Color}${Verde}* "$(gettext "Building new ISO file")"${CierreColor}"
-    mkisofs -r -V "Tuquito 4.1 Wichi" -cache-inodes -J -l -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -o $NEWISO .
+    mkisofs -r -V "Tuquito 5 Pampa" -cache-inodes -J -l -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -o $NEWISO .
 
     finish $NEWISO
 }
@@ -450,6 +450,7 @@ FOO
     echo $infoall > $TMPDIR/ISO/.disk/info
     echo "full_cd/single" > $TMPDIR/ISO/.disk/cd_type
     echo "http://releases.tuquito.org.ar" > $TMPDIR/ISO/.disk/release_notes_url
+    echo "543fab5a-3663-4b14-9183-694990774ee7" > $TMPDIR/ISO/.disk/casper-uuid-generic
     touch $TMPDIR/ISO/.disk/base_installable
 
     if [ -f $TMPDIR/garfio.log ]; then

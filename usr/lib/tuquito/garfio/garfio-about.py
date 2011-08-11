@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
- Garfio 2.4
- Copyright (C) 2010
+ Garfio 2.5
+ Copyright (C) 2011
  Author: Mario Colque <mario@tuquito.org.ar>
  Tuquito Team! - www.tuquito.org.ar
 
