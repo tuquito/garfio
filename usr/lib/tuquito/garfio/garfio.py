@@ -53,7 +53,7 @@ class Garfio(threading.Thread):
         self.action = action
         self.file = file
         self.lang = lang
-        self.cmd = ['garfio', self.action]
+        self.cmd = ['garfio-cli', self.action]
 
         self.label = self.builder.get_object('pblabel')
         self.pb = self.builder.get_object('progressbar')

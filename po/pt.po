@@ -83,7 +83,7 @@ msgstr "Fazer uma ISO no seu idioma"
 
 #: usr/lib/tuquito/garfio/garfio.py:214
 msgid "<small>Make Tuquito speaks your language</small>"
-msgstr "<small>Fazer com que Tuquito fale o seu idioma</small>"
+msgstr "<small>Crie uma cópia de Tuquito no seu idioma</small>"
 
 #: usr/lib/tuquito/garfio/garfio.py:222
 msgid "Want to restore your home directory?"
