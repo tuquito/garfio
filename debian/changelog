@@ -1,3 +1,10 @@
+garfio (2.5-3) precise; urgency=low
+
+  * Guarani branch
+  * Several improvements
+
+ -- Mario Colque <mario@tuquito.org.ar>  Wed, 30 May 2012 20:02:32 -0300
+
 garfio (2.5-2) natty; urgency=low
 
   * new bin
